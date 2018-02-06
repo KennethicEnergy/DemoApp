@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { Content, Icon, Container, Header, Left, Title, Right, Body, Card, CardItem, Button, Item, Input } from 'native-base';
+
 export default class HomeScreen extends React.Component {
   render() {
     return (
@@ -24,9 +25,9 @@ export default class HomeScreen extends React.Component {
             </Button>
       		</Right>
       	</Header>
-      	<Body style={{ backgroundColor: '#dddddd',}}>
+      	<Body style={{ backgroundColor: '#dddddd'}}>
         	<Content>
-
+            
         	</Content>	
       	</Body>
       </Container>
