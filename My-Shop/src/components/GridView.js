@@ -21,6 +21,14 @@ export default class GridView extends Component {
           <GridContent />
         </Grid>
       </Content>
+        <View style={{width:380, height: 200}}>
+          <Grid>
+            <GridContent />
+            <GridContent />
+            <GridContent />
+            <GridContent />
+          </Grid>
+        </View>
     );
   }
 }
