@@ -1,6 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { Content, Icon, Container, Header, Left, Title, Right, Body, Card, CardItem, Button, Item, Input } from 'native-base';
+
+import Products from '../components/Products';
+
 export default class HomeScreen extends React.Component {
   render() {
     return (
@@ -26,18 +29,11 @@ export default class HomeScreen extends React.Component {
       	</Header>
       	<Body style={{ backgroundColor: '#dddddd',}}>
         	<Content>
-
+            <Products />
         	</Content>	
       	</Body>
       </Container>
     );
   }
 }
-const styles = StyleSheet.create({
-  text:{
-    fontSize:30,
-    marginLeft:30,
-    padding:10
-  }
-})
 
