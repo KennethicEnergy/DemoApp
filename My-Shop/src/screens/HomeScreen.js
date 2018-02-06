@@ -1,13 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { Content, Icon, Container, Header, Left, Title, Right, Body, Card, CardItem, Button, Item, Input } from 'native-base';
+
 import GridView from '../components/GridView';
+import RecommendedProducts from '../components/RecommendedProducts';
 
 export default class HomeScreen extends React.Component {
   render() {
     return (
       <Container>
-      	<Header hasSegment >
+      	<Header>
       		<Left>
       			<Button 
       				transparent
@@ -26,18 +28,18 @@ export default class HomeScreen extends React.Component {
             </Button>
       		</Right>
       	</Header>
-      	<Body style={{ backgroundColor: '#dddddd'}}>
-        	<Content>
+
+        <Content>
             {/*Carousel*/}
             {/*View Slider*/}
             {/*New to BliBli*/}
             {/*Shopping Category (Grid)*/}
             {/*Featured Brands*/}
-            {/*Product Recommendation*/}
+            {/*<RecommendedProducts />*/}
             {/*Hot Product*/}
             {/*Recently Viewed Product*/}
-         	</Content>	
-      	</Body>
+         </Content>	
+
       </Container>
     );
   }
