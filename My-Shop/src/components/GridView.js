@@ -13,14 +13,14 @@ export default class GridView extends Component {
   
   render() {
     return (
-        <Content>
-          <Grid> 
-            <GridContent />
-            <GridContent />
-            <GridContent />
-            <GridContent />
-          </Grid>
-        </Content>
+      <Content>
+        <Grid> 
+          <GridContent />
+          <GridContent />
+          <GridContent />
+          <GridContent />
+        </Grid>
+      </Content>
     );
   }
 }
