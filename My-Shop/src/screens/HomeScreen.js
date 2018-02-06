@@ -35,11 +35,4 @@ export default class HomeScreen extends React.Component {
     );
   }
 }
-const styles = StyleSheet.create({
-  text:{
-    fontSize:30,
-    marginLeft:30,
-    padding:10
-  }
-})
 

@@ -1,11 +1,17 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, TouchableOpacity, Image } from 'react-native';
+import { Card } from 'native-base';
 
 export default class Products extends React.Component {
 	render() {
 		return (
 			<View>
-				<Text>Hello World</Text>
+				<TouchableOpacity>
+					<Card>
+						<Image style={styles.icon} />
+						<Text style={styles.name}></Text>
+					</Card>
+				</TouchableOpacity>
 			</View>
 		)
 	}
