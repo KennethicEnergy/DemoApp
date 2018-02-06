@@ -7,7 +7,7 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <Container>
-      	<Header hasSegment >
+      	<Header>
       		<Left>
       			<Button 
       				transparent
@@ -28,14 +28,36 @@ export default class HomeScreen extends React.Component {
       	</Header>
       	<Body style={{ backgroundColor: '#dddddd'}}>
         	<Content>
+          <View>
             {/*Carousel*/}
+          </View>
+          <View>
             {/*View Slider*/}
+          </View>
+          <View>
             {/*New to BliBli*/}
+          </View>
+          <View>
+            {/*New to BliBli SignUp*/}
+          </View>
+          <View>
             {/*Shopping Category (Grid)*/}
+          </View>
+          <View>
+            {/*Shopping Category (Grid)*/}
+          </View>
+          <View>
             {/*Featured Brands*/}
+          </View>
+          <View>
             {/*Product Recommendation*/}
+          </View>
+          <View>
             {/*Hot Product*/}
+          </View>
+          <View>
             {/*Recently Viewed Product*/}
+          </View>
          	</Content>	
       	</Body>
       </Container>
