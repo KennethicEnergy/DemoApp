@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Text} from 'react-native'
+import {Text, View} from 'react-native'
 import { Container, Header, Content, Icon } from 'native-base';
 import { Col, Row, Grid } from 'react-native-easy-grid';
 
@@ -13,8 +13,6 @@ export default class GridView extends Component {
   
   render() {
     return (
-      <Container>
-        <Header />
         <Content>
           <Grid> 
             <GridContent />
@@ -23,7 +21,6 @@ export default class GridView extends Component {
             <GridContent />
           </Grid>
         </Content>
-      </Container>
     );
   }
 }

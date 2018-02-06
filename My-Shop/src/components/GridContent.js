@@ -26,7 +26,6 @@ const styles = StyleSheet.create({
     borderWidth: 0.5, 
     backgroundColor: 'white', 
     height: 150, 
-    justifyContent: 'center'
   },
 
   gridImage: {
