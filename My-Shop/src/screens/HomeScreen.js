@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { Content, Icon, Container, Header, Left, Title, Right, Body, Card, CardItem, Button, Item, Input } from 'native-base';
+import GridView from '../components/GridView';
 
 export default class HomeScreen extends React.Component {
   render() {
@@ -27,8 +28,8 @@ export default class HomeScreen extends React.Component {
       	</Header>
       	<Body style={{ backgroundColor: '#dddddd'}}>
         	<Content>
-            
-        	</Content>	
+            <GridView />
+         	</Content>	
       	</Body>
       </Container>
     );
