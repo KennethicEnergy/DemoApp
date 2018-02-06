@@ -12,8 +12,8 @@ export default class GridContent extends Component {
   render() {
     return (
       <Col onPress={this.alertMessage} style={styles.gridContent}>
-         <Image source= {{uri: 'http://saintheron.com/wp-content/uploads/2016/03/drake1-500x500.jpg'}} style={styles.gridImage} />
-          <Text style={{color: 'white', textAlign: 'center',}}>Drake</Text>
+         <Image source= {{uri: 'https://image.freepik.com/free-icon/shopping-cart_318-138428.jpg'}} style={styles.gridImage} />
+          <Text style={styles.gridText}>Sample</Text>
       </Col>
     );
   }
@@ -25,12 +25,16 @@ const styles = StyleSheet.create({
     borderStyle: 'solid', 
     borderWidth: 0.5, 
     backgroundColor: 'white', 
-    height: 150, 
+    height: 150
   },
 
   gridImage: {
     width: 80, 
     height: 80, 
-    borderRadius: 60
+  },
+
+  gridText: {
+    color: 'black', 
+    textAlign: 'center'
   }
 });
