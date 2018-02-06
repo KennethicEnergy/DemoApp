@@ -28,7 +28,14 @@ export default class HomeScreen extends React.Component {
       	</Header>
       	<Body style={{ backgroundColor: '#dddddd'}}>
         	<Content>
-            
+            {/*Carousel*/}
+            {/*View Slider*/}
+            {/*New to BliBli*/}
+            {/*Shopping Category (Grid)*/}
+            {/*Featured Brands*/}
+            {/*Product Recommendation*/}
+            {/*Hot Product*/}
+            {/*Recently Viewed Product*/}
          	</Content>	
       	</Body>
       </Container>
