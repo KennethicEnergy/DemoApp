@@ -28,7 +28,7 @@ export default class HomeScreen extends React.Component {
       	</Header>
       	<Body style={{ backgroundColor: '#dddddd'}}>
         	<Content>
-            <GridView />
+            
          	</Content>	
       	</Body>
       </Container>
