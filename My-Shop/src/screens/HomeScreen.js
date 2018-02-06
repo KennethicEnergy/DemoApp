@@ -1,7 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { Content, Icon, Container, Header, Left, Title, Right, Body, Card, CardItem, Button, Item, Input } from 'native-base';
+
 import GridView from '../components/GridView';
+import RecommendedProducts from '../components/RecommendedProducts';
 
 export default class HomeScreen extends React.Component {
   render() {
@@ -26,40 +28,19 @@ export default class HomeScreen extends React.Component {
             </Button>
       		</Right>
       	</Header>
-      	<Body style={{ backgroundColor: '#dddddd'}}>
-        	<Content>
-          <View>
-            {/*Carousel*/}
-          </View>
-          <View>
-            {/*View Slider*/}
-          </View>
-          <View>
-            {/*New to BliBli*/}
-          </View>
-          <View>
-            {/*New to BliBli SignUp*/}
-          </View>
-          <View>
-            {/*Shopping Category (Grid)*/}
-          </View>
-          <View>
-            {/*Shopping Category (Grid)*/}
-          </View>
-          <View>
-            {/*Featured Brands*/}
-          </View>
-          <View>
-            {/*Product Recommendation*/}
-          </View>
-          <View>
-            {/*Hot Product*/}
-          </View>
-          <View>
-            {/*Recently Viewed Product*/}
-          </View>
+          <Content>
+              {/*Carousel*/}
+              {/*View Slider*/}
+              {/*New to BliBli*/}
+              {/*New to BliBli SignUp*/}
+              {/*Shopping Category (Grid)*/}
+              {/*Shopping Category (Grid)*/}
+              {/*Featured Brands*/}
+              {/*Product Recommendation*/}
+              {/*<RecommendedProducts />*/}
+              {/*Hot Product*/}
+              {/*Recently Viewed Product*/}
          	</Content>	
-      	</Body>
       </Container>
     );
   }
