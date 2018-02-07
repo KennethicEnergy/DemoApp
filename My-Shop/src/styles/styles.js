@@ -9,22 +9,17 @@ export default StyleSheet.create({
 	},
 
 	productImage: {
-		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center',
-		height: 100,
-		width: 80,
+		height: 150,
+		width: 100,
 	},
 
 	productName: {
 		margin: 2,
-		textAlign: 'center',
-		fontWeight: 'bold',
 	},
 	
 	card: {
-		height: 170,
-		width: 130,
+		height: 250,
+		width: 150,
 	}
 
 })

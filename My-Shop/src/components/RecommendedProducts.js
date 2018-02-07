@@ -9,8 +9,45 @@ export default class RecommendedProducts extends React.Component {
 		return (
 			<View>
 				<Text>Recommended Products</Text>
-				<ScrollView>
-					<Products productName='Sony Xperia XA1' />
+				<ScrollView horizontal={true}>
+					<Products
+						imageUri={require('../images/Xperia-XA1.png')}
+						productName='Sony Xperia XA1'
+						productPrice='Php. 17,000'
+						productRating='5/5'
+					/>
+					<Products
+						imageUri={require('../images/Xperia-XA1.png')}
+						productName='Sony Xperia XA1'
+					/>
+					<Products
+						imageUri={require('../images/Xperia-XA1.png')}
+						productName='suspsadajdh'
+					/>
+					<Products
+						imageUri={require('../images/Xperia-XA1.png')}
+						productName='Sony Xperia XA1'
+						productPrice='Php. 17,000'
+						productRating='5/5'
+					/>
+					<Products
+						imageUri={require('../images/Xperia-XA1.png')}
+						productName='Sony Xperia XA1'
+						productPrice='Php. 17,000'
+						productRating='5/5'
+					/>
+					<Products
+						imageUri={require('../images/Xperia-XA1.png')}
+						productName='Sony Xperia XA1'
+						productPrice='Php. 17,000'
+						productRating='5/5'
+					/>
+					<Products
+						imageUri={require('../images/Xperia-XA1.png')}
+						productName='Sony Xperia XA1'
+						productPrice='Php. 17,000'
+						productRating='5/5'
+					/>
 				</ScrollView>
 			</View>
 		)
