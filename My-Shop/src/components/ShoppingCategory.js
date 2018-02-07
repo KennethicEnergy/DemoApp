@@ -1,13 +1,41 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-import { Col, Row, Grid } from "react-native-easy-grid";
+import React, { Component } from 'react';
+import {Text, View} from 'react-native'
+import { Container, Header, Content, Icon } from 'native-base';
+import { Col, Row, Grid } from 'react-native-easy-grid';
 
-export default class ShoppingCategoryScreen extends React.Component {
+import GridContent from './GridContent';
+
+export default class ShoppingCategory extends Component {
+
+  alertMessage = () => {
+    alert("SAMPLE");
+  }
+  
   render() {
     return (
-       <View>
+      <Content>
+        <Text style={{fontSize:25, marginTop: 10, marginBottom: 10}}>Shopping Category</Text>
+        <Grid> 
+          <GridContent />
+          <GridContent />
+          <GridContent />
+          <GridContent />
+        </Grid>
 
-       </View>
-    );	
+         <Grid> 
+          <GridContent />
+          <GridContent />
+          <GridContent />
+          <GridContent />
+        </Grid>
+
+         <Grid> 
+          <GridContent />
+          <GridContent />
+          <GridContent />
+          <GridContent />
+        </Grid>
+      </Content>
+    );
   }
 }
