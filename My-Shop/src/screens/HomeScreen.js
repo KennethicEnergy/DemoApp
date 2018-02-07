@@ -6,6 +6,8 @@ import ShoppingCategory from '../components/ShoppingCategory';
 import ViewSlider from '../components/ViewSlider';
 import RecommendedProducts from '../components/RecommendedProducts';
 import Carousel from '../components/Carousel';
+import SignIn from '../components/SignIn-Up';
+
 export default class HomeScreen extends React.Component {
   render() {
     return (
@@ -19,7 +21,7 @@ export default class HomeScreen extends React.Component {
       			</Button>
       		</Left>
       		<Body>
-      			<Image style={{height:30, width:80}}source={require('../images/logo-blibli.png')}></Image>
+      			<Image style={{height:30, width:85}}source={require('../images/logo-blibli.png')}></Image>
       		</Body>
 					<Right>
       			<Button
@@ -32,7 +34,7 @@ export default class HomeScreen extends React.Component {
           <Content style={{backgroundColor:'#dddddd'}}>
             <Carousel />
             <ViewSlider />
-            {/*New to BliBli SignUp*/}
+            <SignIn/>
             <ShoppingCategory />
             {/*Featured Brands*/}
             <RecommendedProducts />
