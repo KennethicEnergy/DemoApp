@@ -11,7 +11,7 @@ export default class HotProducts extends React.Component {
 				<Text>Hot Products</Text>
 				<ScrollView horizontal={true}>
 					<Products
-						imageUri={require('../images/Philips-Induction.png')}
+						imageUri={require('../images/Philips-Induction.jpg')}
 						productName='Philips HD4932 Induction Cooker'
 						productPrice='Php. 5,894.75'
 					/>

@@ -2,11 +2,15 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { Content, Icon, Container, Header, Left, Title, Right, Body, Card, CardItem, Button, Item, Input } from 'native-base';
 
-import ShoppingCategory from '../components/ShoppingCategory';
-import ViewSlider from '../components/ViewSlider';
 import Carousel from '../components/Carousel';
+import ViewSlider from '../components/ViewSlider';
+import SignIn from '../components/SignIn-Up';
+import ShoppingCategory from '../components/ShoppingCategory';
 import RecommendedProducts from '../components/RecommendedProducts';
 import HotProducts from '../components/HotProducts';
+
+
+
 
 export default class HomeScreen extends React.Component {
   render() {
@@ -21,7 +25,7 @@ export default class HomeScreen extends React.Component {
       			</Button>
       		</Left>
       		<Body>
-      			<Image style={{height:30, width:80}}source={require('../images/logo-blibli.png')}></Image>
+      			<Image style={{height:30, width:85}}source={require('../images/logo-blibli.png')}></Image>
       		</Body>
 					<Right>
       			<Button
@@ -34,7 +38,7 @@ export default class HomeScreen extends React.Component {
           <Content style={{backgroundColor:'#dddddd'}}>
             <Carousel />
             <ViewSlider />
-            {/*New to BliBli SignUp*/}
+            <SignIn/>
             <ShoppingCategory />
             {/*Featured Brands*/}
             <RecommendedProducts />

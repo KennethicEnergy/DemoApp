@@ -3,7 +3,7 @@ import { Text, StyleSheet, Image } from 'react-native'
 import { Container, Header, Content, Icon } from 'native-base';
 import { Col, Row, Grid } from 'react-native-easy-grid';
 
-export default class Categories extends Component {
+export default class BrandGrid extends Component {
 
   alertMessage = () => {
     alert("SAMPLE");
@@ -12,8 +12,7 @@ export default class Categories extends Component {
   render() {
     return (
       <Col onPress={this.alertMessage} style={styles.gridContent}>
-         <Image source= {{uri: 'https://image.freepik.com/free-icon/shopping-cart_318-138428.jpg'}} style={styles.gridImage} />
-          <Text style={styles.gridText}>Sample</Text>
+         <Image source= {{uri: 'http://pluspng.com/img-png/samsung-logo-png-samsung-logo-png-2104.png'}} style={styles.gridImage} />
       </Col>
     );
   }
@@ -25,7 +24,7 @@ const styles = StyleSheet.create({
     borderStyle: 'solid', 
     borderWidth: 0.5, 
     backgroundColor: 'white', 
-    height: 150
+    height: 75
   },
 
   gridImage: {
