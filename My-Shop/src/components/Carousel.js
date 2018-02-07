@@ -28,7 +28,7 @@ export default class App extends React.Component {
             <View style={styles.container}>
                 <Carousel
                     autoplay
-                    autoplayTimeout={5000}
+                    autoplayTimeout={3000}
                     loop
                     index={0}
                     pageSize={500}
