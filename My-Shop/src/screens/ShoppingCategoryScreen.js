@@ -26,9 +26,9 @@ export default class ShoppingCategoryScreen extends React.Component {
             </Button>
       		</Right>
       	</Header>
-	      	<Body>
-	      		<ShoppingCategory />
-	      	</Body>
+	      	<Content>
+	      		
+	      	</Content>
       </Container>
     );	
   }

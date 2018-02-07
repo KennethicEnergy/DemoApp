@@ -4,7 +4,7 @@ import { Content, Icon, Container, Header, Left, Title, Right, Body, Card, CardI
 
 import GridView from '../components/GridView';
 import RecommendedProducts from '../components/RecommendedProducts';
-
+import Carousel from '../components/Carousel';
 export default class HomeScreen extends React.Component {
   render() {
     return (
@@ -30,6 +30,7 @@ export default class HomeScreen extends React.Component {
       	</Header>
           <Content>
               {/*Carousel*/}
+              <Carousel />
               {/*View Slider*/}
               {/*New to BliBli*/}
               {/*New to BliBli SignUp*/}
