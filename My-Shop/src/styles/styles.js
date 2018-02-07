@@ -9,22 +9,21 @@ export default StyleSheet.create({
 	},
 
 	productImage: {
-		flex: 1,
-		justifyContent: 'center',
+		height: 150,
+		width: '90%',
+		resizeMode: 'contain',
 		alignItems: 'center',
-		height: 100,
-		width: 80,
+		position: 'relative',
+		margin: 10,
 	},
 
 	productName: {
 		margin: 2,
-		textAlign: 'center',
-		fontWeight: 'bold',
 	},
 	
 	card: {
-		height: 170,
-		width: 130,
+		height: 250,
+		width: 150,
 	}
 
 })

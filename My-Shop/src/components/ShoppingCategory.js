@@ -3,7 +3,7 @@ import {Text, View} from 'react-native'
 import { Container, Header, Content, Icon } from 'native-base';
 import { Col, Row, Grid } from 'react-native-easy-grid';
 
-import GridContent from './GridContent';
+import Categories from './Categories';
 
 export default class ShoppingCategory extends Component {
 
@@ -16,24 +16,24 @@ export default class ShoppingCategory extends Component {
       <Content>
         <Text style={{fontSize:25, marginTop: 10, marginBottom: 10}}>Shopping Category</Text>
         <Grid> 
-          <GridContent />
-          <GridContent />
-          <GridContent />
-          <GridContent />
+          <Categories />
+          <Categories />
+          <Categories />
+          <Categories />
         </Grid>
 
          <Grid> 
-          <GridContent />
-          <GridContent />
-          <GridContent />
-          <GridContent />
+          <Categories />
+          <Categories />
+          <Categories />
+          <Categories />
         </Grid>
 
          <Grid> 
-          <GridContent />
-          <GridContent />
-          <GridContent />
-          <GridContent />
+          <Categories />
+          <Categories />
+          <Categories />
+          <Categories />
         </Grid>
       </Content>
     );

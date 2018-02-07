@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
-import { Card } from 'native-base';
+import { Card, CardItem } from 'native-base';
 
 import styles from '../styles/styles';
 
@@ -10,8 +10,12 @@ export default class Products extends React.Component {
 			<View>
 				<TouchableOpacity>
 					<Card style={styles.card}>
-						<Image style={ styles.productImage } source={ require('../images/Xperia-XA1.png') }></Image>
-						<Text style={ styles.productName }>{ this.props.productName }</Text>
+						<CardItem>
+							<Image style={ styles.productImage } source={ this.props.imageUri } />
+						</CardItem>
+						<Text style={ styles.productName }>{this.props.productName}</Text>
+						<Text style={ styles.productName }>{this.props.productPrice}</Text>
+						<Text style={ styles.productName }>{this.props.productRating}</Text>
 					</Card>
 				</TouchableOpacity>
 			</View>
