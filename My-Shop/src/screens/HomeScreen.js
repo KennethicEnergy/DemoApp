@@ -29,6 +29,7 @@ export default class HomeScreen extends React.Component {
       		</Right>
       	</Header>
           <Content>
+<<<<<<< HEAD
               {/*Carousel*/}
               <Carousel />
               {/*View Slider*/}
@@ -41,6 +42,20 @@ export default class HomeScreen extends React.Component {
               {/*<RecommendedProducts />*/}
               {/*Hot Product*/}
               {/*Recently Viewed Product*/}
+=======
+            {/*Carousel*/}
+            {/*View Slider*/}
+            {/*New to BliBli*/}
+            {/*New to BliBli SignUp*/}
+            {/*Shopping Category (Grid)*/}
+            <GridView />
+            {/*Shopping Category (Grid)*/}
+            {/*Featured Brands*/}
+            <RecommendedProducts />
+            {/*<RecommendedProducts />*/}
+            {/*Hot Product*/}
+            {/*Recently Viewed Product*/}
+>>>>>>> refs/remotes/origin/master
          	</Content>	
       </Container>
     );

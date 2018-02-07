@@ -8,16 +8,20 @@ export default StyleSheet.create({
 		marginTop: 20,
 	},
 
-	icon: {
-		height: 98,
-		width: 98,
-		borderRadius: 10,
+	productImage: {
+		height: 100,
+		width: 80,
 	},
 
-	name: {
+	productName: {
 		margin: 2,
 		textAlign: 'center',
 		fontWeight: 'bold',
 	},
 	
+	card: {
+		height: 170,
+		width: 130,
+	}
+
 })
