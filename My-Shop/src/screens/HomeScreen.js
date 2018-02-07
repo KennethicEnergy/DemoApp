@@ -4,8 +4,10 @@ import { Content, Icon, Container, Header, Left, Title, Right, Body, Card, CardI
 
 import ShoppingCategory from '../components/ShoppingCategory';
 import ViewSlider from '../components/ViewSlider';
-import RecommendedProducts from '../components/RecommendedProducts';
 import Carousel from '../components/Carousel';
+import RecommendedProducts from '../components/RecommendedProducts';
+import HotProducts from '../components/HotProducts';
+
 export default class HomeScreen extends React.Component {
   render() {
     return (
@@ -36,8 +38,7 @@ export default class HomeScreen extends React.Component {
             <ShoppingCategory />
             {/*Featured Brands*/}
             <RecommendedProducts />
-            {/*<RecommendedProducts />*/}
-            {/*Hot Product*/}
+            <HotProducts />
             {/*Recently Viewed Product*/}
          	</Content>	
       </Container>
