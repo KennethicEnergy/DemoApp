@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { Content, Icon, Container, Header, Left, Title, Right, Body, Card, CardItem, Button, Item, Input } from 'native-base';
 
-import GridView from '../components/GridView';
+import ShoppingCategory from '../components/ShoppingCategory';
 import ViewSlider from '../components/ViewSlider';
 import RecommendedProducts from '../components/RecommendedProducts';
 import Carousel from '../components/Carousel';
@@ -32,11 +32,8 @@ export default class HomeScreen extends React.Component {
           <Content style={{backgroundColor:'#dddddd'}}>
             <Carousel />
             <ViewSlider />
-            {/*New to BliBli*/}
             {/*New to BliBli SignUp*/}
-            {/*Shopping Category (Grid)*/}
-            <GridView />
-            {/*Shopping Category (Grid)*/}
+            <ShoppingCategory />
             {/*Featured Brands*/}
             <RecommendedProducts />
             {/*<RecommendedProducts />*/}
