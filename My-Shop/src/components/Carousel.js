@@ -18,7 +18,7 @@ export default class App extends React.Component {
     renderPage(image, index) {
         return (
             <View key={index}>
-                <Image style={{ width: 380, height: 280 }} source={{ uri: image }} />
+                <Image style={{ width: 380, height: 280 }} source={{ uri: image }} />   
             </View>
         );
     }
@@ -43,7 +43,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#FFF',
+        backgroundColor: '#dddddd',
         justifyContent: 'center'
     },
 });
