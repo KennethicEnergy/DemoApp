@@ -10,7 +10,11 @@ export default StyleSheet.create({
 
 	productImage: {
 		height: 150,
-		width: 100,
+		width: '90%',
+		resizeMode: 'contain',
+		alignItems: 'center',
+		position: 'relative',
+		margin: 10,
 	},
 
 	productName: {

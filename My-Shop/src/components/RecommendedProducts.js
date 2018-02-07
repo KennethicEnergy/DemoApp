@@ -21,8 +21,8 @@ export default class RecommendedProducts extends React.Component {
 						productName='Sony Xperia XA1'
 					/>
 					<Products
-						imageUri={require('../images/Xperia-XA1.png')}
-						productName='suspsadajdh'
+						imageUri={require('../images/PS4-Slim.png')}
+						productName='Sony PlayStation 4 Slim'
 					/>
 					<Products
 						imageUri={require('../images/Xperia-XA1.png')}
