@@ -8,6 +8,11 @@ export default StyleSheet.create({
 		marginTop: 20,
 	},
 
+	productImage: {
+		height: 100,
+		width: 80,
+	},
+
 	productName: {
 		margin: 2,
 		textAlign: 'center',

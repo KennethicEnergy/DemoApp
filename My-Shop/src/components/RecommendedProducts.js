@@ -10,7 +10,7 @@ export default class RecommendedProducts extends React.Component {
 			<View>
 				<Text>Recommended Products</Text>
 				<ScrollView>
-					<Products productName='Saber' imageUri='https://vignette.wikia.nocookie.net/fategrandorder/images/5/5f/Sabericon.png/revision/latest?cb=20160205145551' />
+					<Products productName='Saber' imageUri='../images/Xperia-XA1.png' />
 				</ScrollView>
 			</View>
 		)

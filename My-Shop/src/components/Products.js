@@ -10,7 +10,7 @@ export default class Products extends React.Component {
 			<View>
 				<TouchableOpacity>
 					<Card style={styles.card}>
-						<Image style={ styles.icon } source={{ uri: this.props.imageUri }}></Image>
+						<Image style={ styles.productImage } source={require(props.imageUri)}></Image>
 						<Text style={ styles.productName }>{ this.props.productName }</Text>
 					</Card>
 				</TouchableOpacity>
