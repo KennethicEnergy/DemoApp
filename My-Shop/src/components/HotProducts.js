@@ -15,6 +15,36 @@ export default class HotProducts extends React.Component {
 						productName='Philips HD4932 Induction Cooker'
 						productPrice='Php. 5,894.75'
 					/>
+					<Products
+						imageUri={require('../images/Philips-Induction.jpg')}
+						productName='Philips HD4932 Induction Cooker'
+						productPrice='Php. 5,894.75'
+					/>
+					<Products
+						imageUri={require('../images/Philips-Induction.jpg')}
+						productName='Philips HD4932 Induction Cooker'
+						productPrice='Php. 5,894.75'
+					/>
+					<Products
+						imageUri={require('../images/Philips-Induction.jpg')}
+						productName='Philips HD4932 Induction Cooker'
+						productPrice='Php. 5,894.75'
+					/>
+					<Products
+						imageUri={require('../images/Philips-Induction.jpg')}
+						productName='Philips HD4932 Induction Cooker'
+						productPrice='Php. 5,894.75'
+					/>
+					<Products
+						imageUri={require('../images/Philips-Induction.jpg')}
+						productName='Philips HD4932 Induction Cooker'
+						productPrice='Php. 5,894.75'
+					/>
+					<Products
+						imageUri={require('../images/Philips-Induction.jpg')}
+						productName='Philips HD4932 Induction Cooker'
+						productPrice='Php. 5,894.75'
+					/>
 				</ScrollView>
 			</View>
 		)

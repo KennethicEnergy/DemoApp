@@ -4,16 +4,14 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
 
 	container: {
-		backgroundColor: '#fff',
-		marginTop: 20,
+		flex: 1
 	},
 
 	productImage: {
+		flex: 1,
+		alignSelf: 'stretch',
 		height: 150,
-		width: '90%',
-		resizeMode: 'contain',
-		alignItems: 'center',
-		position: 'relative',
+		width: '100%',
 		margin: 10,
 	},
 
@@ -22,6 +20,8 @@ export default StyleSheet.create({
 	},
 	
 	card: {
+		marginRight: 7.5,
+		marginLeft: 7.5,
 		height: 250,
 		width: 150,
 	}
