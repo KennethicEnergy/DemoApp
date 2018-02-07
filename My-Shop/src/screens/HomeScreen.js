@@ -10,9 +10,6 @@ import FeaturedBrands from '../components/FeaturedBrands';
 import RecommendedProducts from '../components/RecommendedProducts';
 import HotProducts from '../components/HotProducts';
 
-
-
-
 export default class HomeScreen extends React.Component {
   render() {
     return (
