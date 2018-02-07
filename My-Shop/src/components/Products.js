@@ -8,9 +8,11 @@ export default class Products extends React.Component {
 	render() {
 		return (
 			<View>
-				<TouchableOpacity style={styles.button}>
-					<Image style={ styles.icon } source={{uri: this.props.imageUri}}></Image>
-					<Text style={ styles.name }>{this.props.Cname}</Text>
+				<TouchableOpacity>
+					<Card style={styles.card}>
+						<Image style={ styles.icon } source={{ uri: this.props.imageUri }}></Image>
+						<Text style={ styles.productName }>{ this.props.productName }</Text>
+					</Card>
 				</TouchableOpacity>
 			</View>
 		)

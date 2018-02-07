@@ -37,7 +37,7 @@ export default class HomeScreen extends React.Component {
               <GridView />
               {/*Shopping Category (Grid)*/}
               {/*Featured Brands*/}
-              {/*Product Recommendation*/}
+              <RecommendedProducts />
               {/*<RecommendedProducts />*/}
               {/*Hot Product*/}
               {/*Recently Viewed Product*/}
