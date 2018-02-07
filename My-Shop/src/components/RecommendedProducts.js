@@ -10,7 +10,7 @@ export default class RecommendedProducts extends React.Component {
 			<View>
 				<Text>Recommended Products</Text>
 				<ScrollView>
-					<Products productName='Saber' imageUri='../images/Xperia-XA1.png' />
+					<Products productName='Sony Xperia XA1' />
 				</ScrollView>
 			</View>
 		)

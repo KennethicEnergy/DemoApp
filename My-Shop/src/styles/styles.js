@@ -9,6 +9,9 @@ export default StyleSheet.create({
 	},
 
 	productImage: {
+		flex: 1,
+		justifyContent: 'center',
+		alignItems: 'center',
 		height: 100,
 		width: 80,
 	},
