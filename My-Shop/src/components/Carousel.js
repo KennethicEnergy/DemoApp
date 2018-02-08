@@ -31,7 +31,7 @@ export default class App extends React.Component {
                     autoplayTimeout={3000}
                     loop
                     index={0}
-                    pageSize={500}
+                    pageSize={600}
                 >
                     {images.map((image, index) => this.renderPage(image, index))}
                 </Carousel>

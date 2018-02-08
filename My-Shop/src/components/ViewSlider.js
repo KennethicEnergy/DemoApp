@@ -6,19 +6,19 @@ export default class ViewSlider extends React.Component {
 		return(
 			<ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
 				<TouchableOpacity>
-					<View style={{width: 200, height: 120, backgroundColor: 'skyblue', margin: 8,}} />
+					<View style={{width: 200, height: 120, backgroundColor: '#0095DA', margin: 8,}} />
 				</TouchableOpacity>
 				<TouchableOpacity>
-					<View style={{width: 200, height: 120, backgroundColor: 'skyblue', margin: 8,}} />
+					<View style={{width: 200, height: 120, backgroundColor: '#0095DA', margin: 8,}} />
 				</TouchableOpacity>
 				<TouchableOpacity>
-					<View style={{width: 200, height: 120, backgroundColor: 'skyblue', margin: 8,}} />
+					<View style={{width: 200, height: 120, backgroundColor: '#0095DA', margin: 8,}} />
 				</TouchableOpacity>
 				<TouchableOpacity>
-					<View style={{width: 200, height: 120, backgroundColor: 'skyblue', margin: 8,}} />
+					<View style={{width: 200, height: 120, backgroundColor: '#0095DA', margin: 8,}} />
 				</TouchableOpacity>
 				<TouchableOpacity>
-					<View style={{width: 200, height: 120, backgroundColor: 'skyblue', margin: 8,}} />
+					<View style={{width: 200, height: 120, backgroundColor: '#0095DA', margin: 8,}} />
 				</TouchableOpacity>
 			</ScrollView>
 			)
