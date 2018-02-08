@@ -10,7 +10,7 @@ export default class Products extends React.Component {
 			<View>
 				<TouchableOpacity>
 					<Card style={ styles.card }>
-						<CardItem style={ styles.container }>
+						<CardItem>
 							<Image style={ styles.productImage } source={ this.props.imageUri } resizeMode='contain' />
 						</CardItem>
 						<Text style={ styles.productName }>{this.props.productName}</Text>

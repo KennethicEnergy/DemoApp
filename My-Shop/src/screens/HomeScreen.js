@@ -9,6 +9,7 @@ import ShoppingCategory from '../components/ShoppingCategory';
 import FeaturedBrands from '../components/FeaturedBrands';
 import RecommendedProducts from '../components/RecommendedProducts';
 import HotProducts from '../components/HotProducts';
+import ProductSelection from '../components/ProductSelection';
 
 export default class HomeScreen extends React.Component {
   render() {
@@ -41,7 +42,7 @@ export default class HomeScreen extends React.Component {
             <FeaturedBrands />
             <RecommendedProducts />
             <HotProducts />
-            {/*Recently Viewed Product*/}
+            <ProductSelection />
          	</Content>	
       </Container>
     );

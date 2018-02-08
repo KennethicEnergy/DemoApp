@@ -7,23 +7,20 @@ export default StyleSheet.create({
 		flex: 1
 	},
 
+	card: {
+		height: 280,
+		width: 175,
+		marginRight: 7.5,
+		marginLeft: 7.5,
+	},
+
 	productImage: {
-		flex: 1,
-		alignSelf: 'stretch',
 		height: 150,
-		width: '100%',
-		margin: 10,
+		width: 140,
 	},
 
 	productName: {
 		margin: 2,
 	},
-	
-	card: {
-		marginRight: 7.5,
-		marginLeft: 7.5,
-		height: 250,
-		width: 150,
-	}
 
 })
