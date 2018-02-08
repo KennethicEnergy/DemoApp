@@ -6,11 +6,10 @@ import Carousel from '../components/Carousel';
 import ViewSlider from '../components/ViewSlider';
 import SignIn from '../components/SignIn-Up';
 import ShoppingCategory from '../components/ShoppingCategory';
+import FeaturedBrands from '../components/FeaturedBrands';
 import RecommendedProducts from '../components/RecommendedProducts';
 import HotProducts from '../components/HotProducts';
-
-
-
+import ProductSelection from '../components/ProductSelection';
 
 export default class HomeScreen extends React.Component {
   render() {
@@ -40,10 +39,10 @@ export default class HomeScreen extends React.Component {
             <ViewSlider />
             <SignIn/>
             <ShoppingCategory />
-            {/*Featured Brands*/}
+            <FeaturedBrands />
             <RecommendedProducts />
             <HotProducts />
-            {/*Recently Viewed Product*/}
+            <ProductSelection />
          	</Content>	
       </Container>
     );
