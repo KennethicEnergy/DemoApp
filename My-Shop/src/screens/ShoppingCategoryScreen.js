@@ -28,7 +28,7 @@ export default class ShoppingCategoryScreen extends React.Component {
       		</Right>
       	</Header>
 	      	<Content>
-	      		
+	      		{/*Laman Goes Here*/}
 	      	</Content>
       </Container>
     );	

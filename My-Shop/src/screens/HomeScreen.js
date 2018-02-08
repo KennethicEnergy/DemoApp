@@ -21,7 +21,7 @@ export default class HomeScreen extends React.Component {
       			<Button 
       				transparent
               onPress={() => this.props.navigation.navigate('DrawerOpen')}>
-              <Icon name="menu" style={{ color: "#0095DA" }}/>
+              <Icon name="ios-menu" style={{ color: "#0095DA" }}/>
       			</Button>
       		</Left>
       		<Body>
