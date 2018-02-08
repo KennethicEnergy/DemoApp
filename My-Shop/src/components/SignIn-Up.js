@@ -12,7 +12,7 @@ export default class ViewSlider extends React.Component {
 					<View style={styles.view2}>
 						<Text>New to My Shop?</Text>
 						<TouchableOpacity>
-							<Text style={{color:'skyblue'}}>Sign Up Now</Text>
+							<Text style={{color:'#0095DA'}}>Sign Up Now</Text>
 						</TouchableOpacity>
 					</View>
 			</View>

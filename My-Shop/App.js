@@ -18,7 +18,7 @@ export default class App extends React.Component {
 
 const CustomDrawerContentComponent = (props) => (
   <Container>
-    <Header style={{height:100, backgroundColor:'skyblue'}}>
+    <Header style={{height:100, backgroundColor:'#0095DA'}}>
       <Body>
         <TouchableOpacity>
           <Text style={{fontSize:25, fontWeight:'bold', paddingLeft: 10, color:'#FFF'}}>
