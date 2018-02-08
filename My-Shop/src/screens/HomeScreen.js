@@ -15,7 +15,7 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <Container>
-      	<Header>
+      	<Header searchBar>
       		<Left>
       			<Button 
       				transparent
@@ -34,16 +34,22 @@ export default class HomeScreen extends React.Component {
             </Button>
       		</Right>
       	</Header>
-          <Content style={{backgroundColor:'#dddddd'}}>
-            <Carousel />
-            <ViewSlider />
-            <SignIn/>
-            <ShoppingCategory />
-            <FeaturedBrands />
-            <RecommendedProducts />
-            <HotProducts />
-            <ProductSelection />
-         	</Content>	
+        <View>  
+          <Item>  
+            <Input placeholder="Search" style={{paddingLeft: 10}} />
+            <Icon name="ios-search"  style={{paddingRight: 15}} />
+          </Item>
+        </View>
+        <Content style={{backgroundColor:'#dddddd'}}>
+          <Carousel />
+          <ViewSlider />
+          <SignIn/>
+          <ShoppingCategory />
+          <FeaturedBrands />
+          <RecommendedProducts />
+          <HotProducts />
+          <ProductSelection />
+       	</Content>	
       </Container>
     );
   }
