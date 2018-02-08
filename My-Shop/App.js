@@ -1,17 +1,21 @@
 import React from 'react';
 import { DrawerNavigator, DrawerItems } from 'react-navigation';
 import { Text, TouchableOpacity, Image } from 'react-native';
-import { Container, Content, Header, Body, Icon } from 'native-base';
+import { Container, Content, Header, Body, Icon, Root } from 'native-base';
+              
 
 import HomeScreen from './src/screens/HomeScreen';
 import ShoppingCategoryScreen from './src/screens/ShoppingCategoryScreen';
 import MyOrdersScreen from './src/screens/MyOrdersScreen';
 import WishlistScreen from './src/screens/WishlistScreen';
+import LoginScreen from './src/screens/LoginScreen';
 
 export default class App extends React.Component {
   render() {
     return (
-      <AppNavigator />
+      <Root>
+        <AppNavigator/>
+      </Root> 
     );
   }
 }
@@ -20,7 +24,7 @@ const CustomDrawerContentComponent = (props) => (
   <Container>
     <Header style={{height:100, backgroundColor:'#0095DA'}}>
       <Body>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => this.props.navigation.navigate('LoginButton')}>
           <Text style={{fontSize:25, fontWeight:'bold', paddingLeft: 10, color:'#FFF'}}>
             Login/Register
           </Text>
@@ -69,6 +73,9 @@ const AppNavigator = DrawerNavigator({
         <Icon name='ios-heart' style={{paddingLeft: 10, color:'#0095DA',height:40, width: 40}}/>
         )
     }
+  },
+  LoginScreen:{
+    screen: LoginScreen,
   }
 },{
   initialRouteName: 'HomeScreen',
