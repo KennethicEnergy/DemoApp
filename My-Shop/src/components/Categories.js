@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Text, StyleSheet, Image } from 'react-native'
-import { Container, Header, Content, Icon } from 'native-base';
+import { Container, Header, Content, Icon, CardItem } from 'native-base';
 import { Col, Row, Grid } from 'react-native-easy-grid';
 
 export default class Categories extends Component {
@@ -12,11 +12,15 @@ export default class Categories extends Component {
   render() {
     return (
       <Col onPress={this.alertMessage} style={styles.gridContent}>
-         <Image source= {{uri: 'https://image.freepik.com/free-icon/shopping-cart_318-138428.jpg'}} style={styles.gridImage} />
+        <CardItem>
+          <Image source= {{uri: 'https://www.static-src.com/siva/asset//04_2017/adidas-logo-new.jpg?output-format=webp'}} style={styles.gridImage} />
+        </CardItem>
+        <CardItem>  
           <Text style={styles.gridText}>Sample</Text>
+        </CardItem>
       </Col>
     );
-  }
+  } 
 }
 
 const styles = StyleSheet.create({
@@ -29,8 +33,8 @@ const styles = StyleSheet.create({
   },
 
   gridImage: {
-    width: 80, 
-    height: 80, 
+    width: 50, 
+    height: 50, 
   },
 
   gridText: {
