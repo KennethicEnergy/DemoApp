@@ -2,13 +2,14 @@ import React from 'react';
 import { View, Image, Text, ScrollView } from 'react-native';
 import { Card } from 'native-base';
 
+import styles from '../styles/styles';
 import Products from './Products';
 
 export default class RecommendedProducts extends React.Component {
 	render() {
 		return (
 			<View>
-				<Text>Recommended Products</Text>
+				<Text style={styles.categoryTitle}>Recommended Products</Text>
 				<ScrollView horizontal={true}>
 					<Products
 						imageUri={require('../images/Xperia-XA1.png')}
