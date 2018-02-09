@@ -4,51 +4,25 @@ import { Card } from 'native-base';
 
 import styles from '../styles/styles';
 import Products from './Products';
+import sampleProducts from '../sampleProducts.json';
 
 export default class RecommendedProducts extends React.Component {
 	render() {
+		const { recommended } = sampleProducts
 		return (
 			<View>
 				<Text style={styles.categoryTitle}>Recommended Products</Text>
 				<ScrollView horizontal={true}>
-					<Products
-						imageUri={require('../images/Xperia-XA1.png')}
-						productName='Sony Xperia XA1'
-						productPrice='Php. 17,000'
-						productRating='5/5'
-					/>
-					<Products
-						imageUri={require('../images/Xperia-XA1.png')}
-						productName='Sony Xperia XA1'
-					/>
-					<Products
-						imageUri={require('../images/PS4-Slim.png')}
-						productName='Sony PlayStation 4 Slim'
-					/>
-					<Products
-						imageUri={require('../images/Xperia-XA1.png')}
-						productName='Sony Xperia XA1'
-						productPrice='Php. 17,000'
-						productRating='5/5'
-					/>
-					<Products
-						imageUri={require('../images/Xperia-XA1.png')}
-						productName='Sony Xperia XA1'
-						productPrice='Php. 17,000'
-						productRating='5/5'
-					/>
-					<Products
-						imageUri={require('../images/Xperia-XA1.png')}
-						productName='Sony Xperia XA1'
-						productPrice='Php. 17,000'
-						productRating='5/5'
-					/>
-					<Products
-						imageUri={require('../images/Xperia-XA1.png')}
-						productName='Sony Xperia XA1'
-						productPrice='Php. 17,000'
-						productRating='5/5'
-					/>
+					{Object.values(recommended).map(product => (
+						<Products
+							imageUri={require('../images/Xperia-XA1.png')}
+							productName={ product.name }
+							productPrice={ product.price }
+							productRating={ product.rating }
+							key={product.id}
+						/>
+					))}
+					
 				</ScrollView>
 			</View>
 		)
