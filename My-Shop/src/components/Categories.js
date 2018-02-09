@@ -16,7 +16,7 @@ export default class Categories extends Component {
           <Image source= {{uri: 'https://www.static-src.com/siva/asset//04_2017/adidas-logo-new.jpg?output-format=webp'}} style={styles.gridImage} />
         </CardItem>
         <CardItem>  
-          <Text style={styles.gridText}>Sample</Text>
+          <Text style={styles.gridText}>Icon Name</Text>
         </CardItem>
       </Col>
     );

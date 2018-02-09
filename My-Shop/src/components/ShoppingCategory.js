@@ -21,15 +21,19 @@ export default class ShoppingCategory extends Component {
           <Categories />
           <Categories />
         </Grid>
-
          <Grid> 
           <Categories />
           <Categories />
           <Categories />
           <Categories />
         </Grid>
-
          <Grid> 
+          <Categories />
+          <Categories />
+          <Categories />
+          <Categories />
+        </Grid>
+        <Grid> 
           <Categories />
           <Categories />
           <Categories />

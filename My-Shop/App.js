@@ -43,7 +43,7 @@ const AppNavigator = DrawerNavigator({
     navigationOptions: {
       title: 'Home',
       drawerIcon:(
-        <Icon name='ios-home' style={{paddingLeft: 10, color:'#0095DA',height:40, width: 40, justifyContent:'center'}}/>
+        <Icon name='ios-home' style={{paddingLeft: 10, color:'#0095DA',height:40, width: 40}}/>
         )
     }
   },
