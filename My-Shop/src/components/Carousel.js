@@ -18,7 +18,7 @@ export default class App extends React.Component {
     renderPage(image, index) {
         return (
             <View key={index}>
-                <Image style={{width: 380, height: 280 }} source={{ uri: image }} />   
+                <Image style={{width: 'auto', height: 300 }} source={{ uri: image }} />   
             </View>
         );
     }
@@ -31,7 +31,7 @@ export default class App extends React.Component {
                     autoplayTimeout={3000}
                     loop
                     index={0}
-                    pageSize={600}
+                    pageSize={420}
                 >
                     {images.map((image, index) => this.renderPage(image, index))}
                 </Carousel>

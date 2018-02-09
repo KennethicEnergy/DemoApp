@@ -7,6 +7,12 @@ export default StyleSheet.create({
 		flex: 1
 	},
 
+	categoryTitle: {
+		fontSize: 25,
+		color: 'black',
+		marginLeft: 7.5,
+	},
+
 	card: {
 		height: 280,
 		width: 175,
