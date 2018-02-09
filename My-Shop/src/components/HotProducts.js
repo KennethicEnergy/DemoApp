@@ -4,6 +4,7 @@ import { Card } from 'native-base';
 
 import styles from '../styles/styles';
 import Products from './Products';
+import sampleProducts from '../sampleProducts';
 
 export default class HotProducts extends React.Component {
 	render() {
@@ -13,38 +14,45 @@ export default class HotProducts extends React.Component {
 				<ScrollView horizontal={true}>
 					<Products
 						imageUri={require('../images/Philips-Induction.jpg')}
-						productName='Philips HD4932 Induction Cooker'
-						productPrice='Php. 5,894.75'
+						productName={ sampleProducts.hot.product1.name }
+						productPrice={ sampleProducts.hot.product1.price }
+						productRating={ sampleProducts.hot.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Philips-Induction.jpg')}
-						productName='Philips HD4932 Induction Cooker'
-						productPrice='Php. 5,894.75'
+						productName={ sampleProducts.hot.product1.name }
+						productPrice={ sampleProducts.hot.product1.price }
+						productRating={ sampleProducts.hot.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Philips-Induction.jpg')}
-						productName='Philips HD4932 Induction Cooker'
-						productPrice='Php. 5,894.75'
+						productName={ sampleProducts.hot.product1.name }
+						productPrice={ sampleProducts.hot.product1.price }
+						productRating={ sampleProducts.hot.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Philips-Induction.jpg')}
-						productName='Philips HD4932 Induction Cooker'
-						productPrice='Php. 5,894.75'
+						productName={ sampleProducts.hot.product1.name }
+						productPrice={ sampleProducts.hot.product1.price }
+						productRating={ sampleProducts.hot.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Philips-Induction.jpg')}
-						productName='Philips HD4932 Induction Cooker'
-						productPrice='Php. 5,894.75'
+						productName={ sampleProducts.hot.product1.name }
+						productPrice={ sampleProducts.hot.product1.price }
+						productRating={ sampleProducts.hot.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Philips-Induction.jpg')}
-						productName='Philips HD4932 Induction Cooker'
-						productPrice='Php. 5,894.75'
+						productName={ sampleProducts.hot.product1.name }
+						productPrice={ sampleProducts.hot.product1.price }
+						productRating={ sampleProducts.hot.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Philips-Induction.jpg')}
-						productName='Philips HD4932 Induction Cooker'
-						productPrice='Php. 5,894.75'
+						productName={ sampleProducts.hot.product1.name }
+						productPrice={ sampleProducts.hot.product1.price }
+						productRating={ sampleProducts.hot.product1.rating }
 					/>
 				</ScrollView>
 			</View>

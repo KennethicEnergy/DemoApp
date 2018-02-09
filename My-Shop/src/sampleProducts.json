@@ -1,0 +1,42 @@
+{
+
+	"recommended": {
+		"product1": {
+			"id": "1",
+			"name": "Sony Xperia XA1",
+			"price": "Php. 14,000.00",
+			"rating": "5/5",
+		},
+
+		"product2": {
+			"id": "2",
+			"name": "Sony PlayStation 4 Slim",
+			"price": "Php. 15,495.00",
+			"rating": "4/5",
+		},
+
+		"product3": {
+			"id": "3",
+			"name": "Sony PlayStation 4 Slim",
+			"price": "Php. 15,495.00",
+			"rating": "69/5",
+		}
+	},
+
+	"hot": {
+		"product1": {
+			"name": "Philips HD4932 Induction Cooker",
+			"price": "Php. 5,894.75",
+			"rating": "4/5",
+		}
+	},
+
+	"selection": {
+		"product1": {
+			"name": "Honda CBR-150r",
+			"price": "Php. 120,000.00",
+			"rating": "5/5",
+		}
+	}
+
+}

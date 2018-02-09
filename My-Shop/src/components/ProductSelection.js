@@ -4,6 +4,7 @@ import { Card } from 'native-base';
 
 import styles from '../styles/styles';
 import Products from './Products';
+import sampleProducts from '../sampleProducts';
 
 export default class ProductSelection extends React.Component {
 	render() {
@@ -13,38 +14,45 @@ export default class ProductSelection extends React.Component {
 				<ScrollView horizontal={true}>
 					<Products
 						imageUri={require('../images/Honda-CBR-150r.png')}
-						productName='Honda CBR 150r'
-						productPrice='Php. 120,000.00'
+						productName={ sampleProducts.selection.product1.name }
+						productPrice={ sampleProducts.selection.product1.price }
+						productRating={ sampleProducts.selection.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Honda-CBR-150r.png')}
-						productName='Honda CBR 150r'
-						productPrice='Php. 120,000.00'
+						productName={ sampleProducts.selection.product1.name }
+						productPrice={ sampleProducts.selection.product1.price }
+						productRating={ sampleProducts.selection.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Honda-CBR-150r.png')}
-						productName='Honda CBR 150r'
-						productPrice='Php. 120,000.00'
+						productName={ sampleProducts.selection.product1.name }
+						productPrice={ sampleProducts.selection.product1.price }
+						productRating={ sampleProducts.selection.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Honda-CBR-150r.png')}
-						productName='Honda CBR 150r'
-						productPrice='Php. 120,000.00'
+						productName={ sampleProducts.selection.product1.name }
+						productPrice={ sampleProducts.selection.product1.price }
+						productRating={ sampleProducts.selection.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Honda-CBR-150r.png')}
-						productName='Honda CBR 150r'
-						productPrice='Php. 120,000.00'
+						productName={ sampleProducts.selection.product1.name }
+						productPrice={ sampleProducts.selection.product1.price }
+						productRating={ sampleProducts.selection.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Honda-CBR-150r.png')}
-						productName='Honda CBR 150r'
-						productPrice='Php. 120,000.00'
+						productName={ sampleProducts.selection.product1.name }
+						productPrice={ sampleProducts.selection.product1.price }
+						productRating={ sampleProducts.selection.product1.rating }
 					/>
 					<Products
 						imageUri={require('../images/Honda-CBR-150r.png')}
-						productName='Honda CBR 150r'
-						productPrice='Php. 120,000.00'
+						productName={ sampleProducts.selection.product1.name }
+						productPrice={ sampleProducts.selection.product1.price }
+						productRating={ sampleProducts.selection.product1.rating }
 					/>
 				</ScrollView>
 			</View>
