@@ -6,11 +6,9 @@ import { Col, Row, Grid } from 'react-native-easy-grid';
 import Categories from './Categories';
 
 export default class ShoppingCategory extends Component {
-
   alertMessage = () => {
     alert("SAMPLE");
   }
-  
   render() {
     return (
       <Content>
@@ -21,14 +19,18 @@ export default class ShoppingCategory extends Component {
           <Categories />
           <Categories />
         </Grid>
-
          <Grid> 
           <Categories />
           <Categories />
           <Categories />
           <Categories />
         </Grid>
-
+         <Grid> 
+          <Categories />
+          <Categories />
+          <Categories />
+          <Categories />
+        </Grid>
          <Grid> 
           <Categories />
           <Categories />

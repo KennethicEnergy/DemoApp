@@ -18,7 +18,7 @@ export default class App extends React.Component {
     renderPage(image, index) {
         return (
             <View key={index}>
-                <Image style={{ width: 380, height: 280 }} source={{ uri: image }} />   
+                <Image style={{width: 380, height: 280 }} source={{ uri: image }} />   
             </View>
         );
     }
