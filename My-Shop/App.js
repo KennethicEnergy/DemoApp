@@ -1,8 +1,7 @@
-import React from 'react';
-import { DrawerNavigator, DrawerItems } from 'react-navigation';
+ import React from 'react';
+import { DrawerNavigator, DrawerItems, NavigationActions } from 'react-navigation';
 import { Text, TouchableOpacity, Image } from 'react-native';
 import { Container, Content, Header, Body, Icon, Root } from 'native-base';
-              
 
 import HomeScreen from './src/screens/HomeScreen';
 import ShoppingCategoryScreen from './src/screens/ShoppingCategoryScreen';
@@ -14,8 +13,8 @@ export default class App extends React.Component {
   render() {
     return (
       <Root>
-        <AppNavigator/>
-      </Root> 
+        <AppNavigator />        
+      </Root>
     );
   }
 }
@@ -24,7 +23,7 @@ const CustomDrawerContentComponent = (props) => (
   <Container>
     <Header style={{height:100, backgroundColor:'#0095DA'}}>
       <Body>
-        <TouchableOpacity onPress={() => this.props.navigation.navigate('LoginButton')}>
+        <TouchableOpacity onPress={() => this.props.navigation.navigate('LoginScreen')}>
           <Text style={{fontSize:25, fontWeight:'bold', paddingLeft: 10, color:'#FFF'}}>
             Login/Register
           </Text>
@@ -43,7 +42,7 @@ const AppNavigator = DrawerNavigator({
     navigationOptions: {
       title: 'Home',
       drawerIcon:(
-        <Icon name='ios-home' style={{paddingLeft: 10, color:'#0095DA',height:40, width: 40}}/>
+        <Icon name='ios-home' style={{paddingLeft: 10, color:'#0095DA',height:40, width: 40, justifyContent:'center'}}/>
         )
     }
   },
@@ -75,12 +74,12 @@ const AppNavigator = DrawerNavigator({
     }
   },
   LoginScreen:{
-    screen: LoginScreen,
+    screen:LoginScreen
   }
 },{
   initialRouteName: 'HomeScreen',
   drawerPosition:'left',
-  contentComponent: CustomDrawerContentComponent,
+  contentComponent: props => <CustomDrawerContentComponent {...props} />,
   drawerOpenRoute: 'DrawerOpen',
   drawerCloseRoute: 'DrawerClose',
   drawerToggleRoute: 'DrawerToggle'
