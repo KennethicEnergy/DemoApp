@@ -11,7 +11,6 @@ export default class RecommendedProducts extends React.Component {
 		const { recommended } = sampleProducts
 		return (
 			<View>
-				<Text style={styles.categoryTitle}>Recommended Products</Text>
 				<ScrollView horizontal={true}>
 					{
 						Object.values(recommended).map(product => (
