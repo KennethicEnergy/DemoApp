@@ -48,11 +48,8 @@ export default class HomeScreen extends React.Component {
           <ShoppingCategory />
           <Text style={styles.gridHeader}>Featured Brands</Text>
           <FeaturedBrands />
-          <Text style={styles.cardHeader}>Recommended Products</Text>
           <RecommendedProducts />
-          <Text style={styles.cardHeader}>Hot Products</Text>
           <HotProducts />
-          <Text style={styles.cardHeader}>Product Selection</Text>
           <ProductSelection />
        	</Content>	
       </Container>

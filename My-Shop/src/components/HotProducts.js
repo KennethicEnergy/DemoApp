@@ -11,6 +11,7 @@ export default class HotProducts extends React.Component {
 		const { hot } = sampleProducts
 		return (
 			<View>
+				<Text style={styles.categoryTitle}>Hot Products</Text>
 				<ScrollView horizontal={true}>
 					{
 						Object.values(hot).map(product => (

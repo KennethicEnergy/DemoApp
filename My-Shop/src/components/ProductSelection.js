@@ -11,6 +11,7 @@ export default class ProductSelection extends React.Component {
 		const { selection } = sampleProducts
 		return (
 			<View>
+				<Text style={styles.categoryTitle}>Product Selection</Text>
 				<ScrollView horizontal={true}>
 					{
 						Object.values(selection).map(product => (
