@@ -15,7 +15,7 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <Container>
-      	<Header searchBar>
+      	<Header>
       		<Left>
       			<Button   
       				transparent
@@ -36,7 +36,7 @@ export default class HomeScreen extends React.Component {
       	</Header>
         <View>  
           <Item>  
-            <Input placeholder="Search" style={{paddingLeft: 10}} />
+            <Input placeholder="Search" style={{paddingLeft: 15}} />
             <Icon name="ios-search"  style={{paddingRight: 15}} />
           </Item>
         </View>

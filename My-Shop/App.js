@@ -1,5 +1,5 @@
  import React from 'react';
-import { DrawerNavigator, DrawerItems, NavigationActions } from 'react-navigation';
+import { DrawerNavigator, DrawerItems } from 'react-navigation';
 import { Text, TouchableOpacity, Image } from 'react-native';
 import { Container, Content, Header, Body, Icon, Root } from 'native-base';
 
@@ -79,7 +79,7 @@ const AppNavigator = DrawerNavigator({
 },{
   initialRouteName: 'HomeScreen',
   drawerPosition:'left',
-  contentComponent: props => <CustomDrawerContentComponent {...props} />,
+  contentComponent: CustomDrawerContentComponent,
   drawerOpenRoute: 'DrawerOpen',
   drawerCloseRoute: 'DrawerClose',
   drawerToggleRoute: 'DrawerToggle'
