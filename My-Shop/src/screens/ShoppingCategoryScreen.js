@@ -17,8 +17,10 @@ export default class ShoppingCategoryScreen extends React.Component {
       		</Left>
       		<Body>
       			<Text style={{fontWeight:'bold', color:'#FFF'}}>Shopping Category</Text>
-      		</Body>
-					<Right/>
+          </Body>
+          <Right>
+            <Icon name='cart' style={{ color: "#FFF" }}/>
+          </Right>
       	</Header>
 	      	<Content>
 	      		<ShoppingCategory />

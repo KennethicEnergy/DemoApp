@@ -7,13 +7,13 @@ import sampleProducts from '../sampleProducts';
 
 export default class Products extends React.Component {
 	render() {
-		const { productName, productPrice, productRating, imageUri } = this.props;
+		const { productImage, productName, productPrice, productRating } = this.props;
 		return (
 			<View>
 				<TouchableOpacity>
 					<Card style={ styles.card }>
 						<CardItem>
-							<Image style={ styles.productImage } source={ imageUri } resizeMode='contain' />
+							<Image style={ styles.productImage } source={ productImage } resizeMode='contain' />
 						</CardItem>
 						<CardItem>
 							<Body>

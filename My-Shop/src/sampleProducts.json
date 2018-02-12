@@ -3,6 +3,7 @@
 	"recommended": {
 		"product1": {
 			"id": "1",
+			"image": "{uri: 'http://brandmark.io/logo-rank/random/beats.png'}",
 			"name": "Sony Xperia XA1",
 			"price": "Php. 14,000.00",
 			"rating": "5/5",
