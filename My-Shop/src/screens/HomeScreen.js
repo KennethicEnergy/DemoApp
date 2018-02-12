@@ -44,6 +44,7 @@ export default class HomeScreen extends React.Component {
           <Carousel />
           <ViewSlider />
           <SignIn/>
+          <Text style={{fontSize:25, marginTop: 10, marginBottom: 10}}>Shopping Category</Text>
           <ShoppingCategory />
           <FeaturedBrands />
           <RecommendedProducts />
