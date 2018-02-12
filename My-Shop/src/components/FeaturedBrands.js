@@ -14,7 +14,6 @@ export default class FeaturedBrand extends Component {
   render() {
     return (
       <Content>
-        <Text style={{fontSize:25, marginTop: 10, marginBottom: 10}}>Featured Brands</Text>
         <Grid> 
           <FeaturedBrandContents />
           <FeaturedBrandContents />

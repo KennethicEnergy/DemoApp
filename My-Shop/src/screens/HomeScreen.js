@@ -44,11 +44,15 @@ export default class HomeScreen extends React.Component {
           <Carousel />
           <ViewSlider />
           <SignIn/>
-          <Text style={{fontSize:25, marginTop: 10, marginBottom: 10}}>Shopping Category</Text>
+          <Text style={styles.gridHeader}>Shopping Category</Text>
           <ShoppingCategory />
+          <Text style={styles.gridHeader}>Featured Brands</Text>
           <FeaturedBrands />
+          <Text style={styles.cardHeader}>Recommended Products</Text>
           <RecommendedProducts />
+          <Text style={styles.cardHeader}>Hot Products</Text>
           <HotProducts />
+          <Text style={styles.cardHeader}>Product Selection</Text>
           <ProductSelection />
        	</Content>	
       </Container>
@@ -56,3 +60,23 @@ export default class HomeScreen extends React.Component {
   }
 }
 
+const styles = StyleSheet.create({
+  gridHeader:{
+    fontSize:25, 
+    marginTop: 10, 
+    marginBottom: 10,
+    textAlign: 'center',
+    backgroundColor: 'white',
+    color: '#666',
+    marginBottom: 0,
+    padding: 10
+  },
+
+  cardHeader:{
+    fontSize:25, 
+    marginTop: 10, 
+    marginBottom: 10,
+    textAlign: 'center',
+    color: '#666',
+  }
+})

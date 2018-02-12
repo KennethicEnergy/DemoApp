@@ -10,7 +10,6 @@ export default class HotProducts extends React.Component {
 	render() {
 		return (
 			<View>
-				<Text style={styles.categoryTitle}>Hot Products</Text>
 				<ScrollView horizontal={true}>
 					<Products
 						imageUri={require('../images/Philips-Induction.jpg')}
