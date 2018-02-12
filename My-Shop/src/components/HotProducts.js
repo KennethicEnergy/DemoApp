@@ -4,56 +4,26 @@ import { Card } from 'native-base';
 
 import styles from '../styles/styles';
 import Products from './Products';
-import sampleProducts from '../sampleProducts';
+import sampleProducts from '../sample-products';
 
 export default class HotProducts extends React.Component {
 	render() {
+		const { hot } = sampleProducts
 		return (
 			<View>
 				<Text style={styles.categoryTitle}>Hot Products</Text>
 				<ScrollView horizontal={true}>
-					<Products
-						imageUri={require('../images/Philips-Induction.jpg')}
-						productName={ sampleProducts.hot.product1.name }
-						productPrice={ sampleProducts.hot.product1.price }
-						productRating={ sampleProducts.hot.product1.rating }
-					/>
-					<Products
-						imageUri={require('../images/Philips-Induction.jpg')}
-						productName={ sampleProducts.hot.product1.name }
-						productPrice={ sampleProducts.hot.product1.price }
-						productRating={ sampleProducts.hot.product1.rating }
-					/>
-					<Products
-						imageUri={require('../images/Philips-Induction.jpg')}
-						productName={ sampleProducts.hot.product1.name }
-						productPrice={ sampleProducts.hot.product1.price }
-						productRating={ sampleProducts.hot.product1.rating }
-					/>
-					<Products
-						imageUri={require('../images/Philips-Induction.jpg')}
-						productName={ sampleProducts.hot.product1.name }
-						productPrice={ sampleProducts.hot.product1.price }
-						productRating={ sampleProducts.hot.product1.rating }
-					/>
-					<Products
-						imageUri={require('../images/Philips-Induction.jpg')}
-						productName={ sampleProducts.hot.product1.name }
-						productPrice={ sampleProducts.hot.product1.price }
-						productRating={ sampleProducts.hot.product1.rating }
-					/>
-					<Products
-						imageUri={require('../images/Philips-Induction.jpg')}
-						productName={ sampleProducts.hot.product1.name }
-						productPrice={ sampleProducts.hot.product1.price }
-						productRating={ sampleProducts.hot.product1.rating }
-					/>
-					<Products
-						imageUri={require('../images/Philips-Induction.jpg')}
-						productName={ sampleProducts.hot.product1.name }
-						productPrice={ sampleProducts.hot.product1.price }
-						productRating={ sampleProducts.hot.product1.rating }
-					/>
+					{
+						Object.values(hot).map(product => (
+							<Products 
+								key={ product.id }
+								productImage={{ uri: product.image }}
+								productName={ product.name }
+								productPrice={ product.price }
+								productRating={ product.rating }
+							/>
+						))
+					}
 				</ScrollView>
 			</View>
 		)
