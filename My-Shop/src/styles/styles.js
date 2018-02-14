@@ -7,10 +7,16 @@ export default StyleSheet.create({
 		flex: 1
 	},
 
+	//PRODUCT STYLES
+
 	categoryTitle: {
 		fontSize: 25,
 		color: 'black',
 		marginLeft: 7.5,
+		marginTop: 10,
+		marginBottom: 10,
+		textAlign: 'center',
+		color: '#666',
 	},
 
 	card: {
