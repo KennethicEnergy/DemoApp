@@ -29,7 +29,7 @@ export default class HomeScreen extends React.Component {
 					<Right>
       			<Button
               transparent
-              onPress={() => alert('Joke wala pang laman')}>
+              onPress={() => console.log('Cart!')}>
               <Icon name='cart' style={{ color: "#0095DA" }}/>
             </Button>
       		</Right>

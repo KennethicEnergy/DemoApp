@@ -10,10 +10,11 @@ import WishlistScreen from './src/screens/WishlistScreen';
 import LoginScreen from './src/screens/LoginScreen';
 
 export default class App extends React.Component {
+
   render() {
     return (
       <Root>
-        <AppNavigator />        
+        <AppNavigator {...this.props.navigation}/>        
       </Root>
     );
   }
